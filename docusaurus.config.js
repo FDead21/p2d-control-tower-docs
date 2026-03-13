@@ -12,10 +12,10 @@ const config = {
   },
 
   url: 'https://FDead21.github.io',
-  baseUrl: '/rumahimpian-marketplace/',
+  baseUrl: '/property-marketplace-docs/',
 
   organizationName: 'FDead21',
-  projectName: 'rumahimpian-marketplace',
+  projectName: 'property-marketplace-docs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -63,7 +63,7 @@ const config = {
             label: 'Admin Guide',
           },
           {
-            href: 'https://github.com/FDead21/rumahimpian-marketplace',
+            href: 'https://github.com/FDead21/property-website-docs',
             label: 'GitHub',
             position: 'right',
           },
