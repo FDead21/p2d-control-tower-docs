@@ -33,18 +33,10 @@ Untuk menghitung atau mengubah bobot nilai pajak impor pada baris barang tertent
    * **Kurs Value:** Input angka pengali nilai konversi Rupiah (IDR) berdasarkan regulasi NDPBM aktif.
    * **Freight Value:** Deklarasikan besaran porsi biaya angkut kargo udara terkait.
    * **Insurance Value:** Masukkan besaran nominal premi perlindungan risiko kargo barang.
-4. **Alokasi Data Harga (Price Data):** Input persentase tarif regulasi atau verifikasi kolom hasil kalkulasi otomatis sistem:
-   * **CIF Value:** Dasar perhitungan nilai pabean yang dievaluasi menggunakan formula dasar:
-   
-     $$CIF = \text{FOB} + \text{Insurance} + \text{Freight}$$
-     
-   * **BM Value:** Nilai nominal Bea Masuk kargo hasil perkalian komponen:
-   
-     $$BM = CIF \times \text{Kurs Value} \times \text{Tarif Bea Masuk}$$
-     
-   * **PPN / PPH Values:** Nominal pungutan pajak dalam negeri yang dihitung berdasarkan akumulasi nilai pabean kontainer kargo:
-   
-     $$PPN = (CIF \times \text{Kurs Value} + BM) \times \text{Tarif PPN}$$
+4. * **Alokasi Data Harga (Price Data):** Input persentase tarif regulasi atau verifikasi kolom hasil kalkulasi otomatis sistem:
+   * **CIF Value:** Dasar perhitungan nilai pabean yang dievaluasi menggunakan formula dasar: `CIF = FOB + Asuransi + Freight`
+   * **BM Value:** Nilai nominal Bea Masuk kargo hasil perkalian komponen: `BM = CIF × Kurs Value × Tarif Bea Masuk`
+   * **PPN / PPH Values:** Nominal pungutan pajak dalam negeri yang dihitung berdasarkan komparasi: `PPN = (CIF × Kurs Value + BM) × Tarif PPN`
      
 5. Klik tombol biru **Save Data** (atau **Update Data**) untuk mengeksekusi dan menyimpan kalkulasi nilai keuangan ke sistem.
 

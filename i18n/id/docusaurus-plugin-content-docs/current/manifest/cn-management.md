@@ -66,7 +66,8 @@ Setelah baris kontainer CN berhasil dibuat dan aktif, klik tombol abu-abu berlog
 Klik tombol biru muda **+ Dimension** untuk memunculkan baris perhitungan volume secara real-time. 
 
 Sistem menggunakan formula logis backend untuk memproses nilai:
-$$\text{Sub-Volume} = \text{Jumlah Koli} \times \left( \frac{\text{Panjang (cm)} \times \text{Lebar (cm)} \times \text{Tinggi (cm)}}{1.000.000} \right)$$
+
+> **Sub-Volume** = Jumlah Koli × ((Panjang × Lebar × Tinggi) / 1.000.000)
 
 * **Logika Perbandingan Berat (Chargeable Weight vs Gross Weight):** Sistem akan secara otomatis membandingkan hasil hitung Berat Volume (Volumetric CBM) dengan Berat Fisik Asli (**Gross Weight**). Nilai tertinggi di antara keduanya akan otomatis dijadikan sebagai acuan dasar biaya tagihan (**Chargeable Weight**).
 

@@ -66,7 +66,8 @@ Once a base CN container row is active, click the gray **+ (Plus)** action butto
 Click the light blue **+ Dimension** button to open real-time volume calculation rows. 
 
 The system uses an inline mathematical logic step to process values:
-$$\text{Sub-Volume} = \text{Jumlah Koli} \times \left( \frac{\text{Panjang (cm)} \times \text{Lebar (cm)} \times \text{Tinggi (cm)}}{1,000,000} \right)$$
+
+> **Sub-Volume** = Jumlah Koli × ((Panjang × Lebar × Tinggi) / 1,000,000)
 
 * **Chargeable Weight vs Gross Weight Logic:** The platform compares the calculated Volumetric CBM against physical scale weights (**Gross Weight**). It dynamically sets the higher value as your billing baseline (**Chargeable Weight**).
 

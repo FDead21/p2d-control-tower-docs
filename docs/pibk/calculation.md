@@ -33,18 +33,10 @@ To compute or adjust import tax weights for a specific shipment item row:
    * **Kurs Value:** Log the current active NDPBM IDR conversion multiplier sequence.
    * **Freight Value:** Declare the carrier transport weight cost segment.
    * **Insurance Value:** Specify the cargo risk protection valuation premium row metric.
-4. **Price Data Allocation:** Input custom regulatory rates or verify calculated fields:
-   * **CIF Value:** The baseline custom cost layout evaluated through the base formula:
-   
-     $$CIF = \text{FOB} + \text{Insurance} + \text{Freight}$$
-     
-   * **BM Value:** Computed Import Duty baseline mapping:
-   
-     $$BM = CIF \times \text{Kurs Value} \times \text{BM Duty Rate}$$
-     
-   * **PPN / PPH Values:** Regulated internal tax values balancing down on the import payload container logic:
-   
-     $$PPN = (CIF \times \text{Kurs Value} + BM) \times \text{PPN Rate}$$
+4. * **Price Data Allocation:** Input custom regulatory rates or verify calculated fields:
+   * **CIF Value:** The baseline custom cost layout evaluated through the base formula: `CIF = FOB + Insurance + Freight`
+   * **BM Value:** Computed Import Duty baseline mapping: `BM = CIF × Kurs Value × BM Duty Rate`
+   * **PPN / PPH Values:** Regulated internal tax values balancing down on the import payload container logic: `PPN = (CIF × Kurs Value + BM) × PPN Rate`
      
 5. Click the blue **Save Data** (or **Update Data**) button to execute calculations.
 
