@@ -3,58 +3,48 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   adminSidebar: [
+    'intro',
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: '✈️ Operational Flowmaps',
       items: [
-        'getting-started/intro',
-        'getting-started/dashboard',
+        'operational-flow/overview-process',
+        'operational-flow/origin-to-airport',
+        'operational-flow/warehouse-handling',
       ],
     },
     {
       type: 'category',
-      label: '🔐 Authentication',
-      items: ['auth/authentication'],
+      label: '📋 Manifest Management',
+      items: [
+        'manifest/upload-data',
+        'manifest/cn-management',
+        'manifest/master-data',
+        'manifest/update-bc11',
+        'manifest/manifest-to-pibk',
+      ],
     },
     {
       type: 'category',
-      label: '🏠 Properties',
-      items: ['admin/properties/properties'],
+      label: '🧮 PIBK Module',
+      items: [
+        'pibk/calculation',
+        'pibk/document',
+      ],
     },
     {
       type: 'category',
-      label: '📬 Inquiries (CRM)',
-      items: ['admin/inquiries/inquiries'],
+      label: '📊 Response Data',
+      items: [
+        'response-data/tracking-responses',
+      ],
     },
     {
       type: 'category',
-      label: '👤 Users',
-      items: ['admin/users/users'],
-    },
-    {
-      type: 'category',
-      label: '🏢 Agencies',
-      items: ['admin/agencies/agencies'],
-    },
-    {
-      type: 'category',
-      label: '📰 Articles',
-      items: ['admin/articles/articles'],
-    },
-    {
-      type: 'category',
-      label: '🏦 Banks & KPR',
-      items: ['admin/banks/banks'],
-    },
-    {
-      type: 'category',
-      label: '⚙️ Site Settings',
-      items: ['admin/settings/settings'],
-    },
-    {
-      type: 'category',
-      label: '👤 My Profile',
-      items: ['profile/my-profile'],
+      label: '📖 Reference Database',
+      items: [
+        'reference/hs-code-list',
+      ],
     },
   ],
 };
