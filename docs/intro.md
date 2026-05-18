@@ -19,3 +19,15 @@ Operations are divided into key administrative roles to ensure fluid cargo trans
 1. **Admin Manifes / PLP:** Handles cargo schedule verifications and initiates customs reconciliation requests.
 2. **Admin Pabean PJT:** Manages Consignment Note (CN) drafting, HS Code evaluations, and prints delivery responses like SPPB.
 3. **Warehouse Operations:** Tracks warehouse entry validations (*Gate In*), cargo unloads, and outbound dispatch workflows (*Gate Out*).
+
+---
+
+## 🔐 System Authentication & Access
+
+To access the P2D Control Tower Online workspace ecosystem, direct your web browser to the authorized tracking portal link: `http://tmsmsa.com/ptd/`
+
+![Login Interface](/img/login_screen.png)
+
+1. **Identity Entry:** Input your registered operational administrative email address inside the username validation slot.
+2. **Security Pass:** Type your encrypted security access credential string into the hidden password field.
+3. **Dashboard Routing:** Toggle the session retention switcher state if using a secure private computer, then click the blue **Login to Dashboard** action button to authenticate and access your workspace profile lanes.

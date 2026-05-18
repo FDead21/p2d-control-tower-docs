@@ -3,8 +3,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Property Marketplace',
-  tagline: 'Admin Guide & Documentation',
+  title: 'P2D Control Tower Online',
+  tagline: 'MSA Kargo Tracking & Monitoring System',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -12,10 +12,10 @@ const config = {
   },
 
   url: 'https://FDead21.github.io',
-  baseUrl: '/property-marketplace-docs/',
+  baseUrl: '/p2d-control-tower-docs/',
 
   organizationName: 'FDead21',
-  projectName: 'property-marketplace-docs',
+  projectName: 'p2d-control-tower-docs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -24,7 +24,11 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'id'],
+    localeConfigs: {
+      en: { label: 'English' },
+      id: { label: 'Bahasa Indonesia' },
+    },
   },
 
   presets: [
@@ -33,9 +37,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/',         // Makes docs the homepage (no /docs/ prefix)
+          routeBasePath: '/', 
         },
-        blog: false,                  // Disable blog (you don't need it)
+        blog: false, 
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -50,20 +54,24 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Property Marketplace',
+        title: 'P2D Control Tower',
         logo: {
-          alt: 'Property Marketplace Logo',
-          src: 'img/logo.svg',
+          alt: 'MSA Kargo Logo',
+          src: 'img/docusaurus.png', 
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'adminSidebar',  // Matches your sidebars.js
+            sidebarId: 'adminSidebar',
             position: 'left',
-            label: 'Admin Guide',
+            label: 'User Guide',
           },
           {
-            href: 'https://github.com/FDead21/property-website-docs',
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/FDead21/p2d-control-tower-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -72,12 +80,12 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Property Marketplace. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PT. MSA Kargo. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['php'],   // Syntax highlight for PHP code blocks
+        additionalLanguages: ['php'], 
       },
     }),
 };
