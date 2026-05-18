@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkproperty_marketplace_docs=globalThis.webpackChunkproperty_marketplace_docs||[]).push([[634],{192(r,t,e){e.r(t),e.d(t,{default:()=>o});var a=e(6347),p=e(4848);function o(){return(0,p.jsx)(a.rd,{to:"/property-marketplace/getting-started/intro"})}}}]);
