@@ -1,7 +1,10 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
+# Panduan Pengguna P2D Control Tower Online
+...
 # Selamat Datang di P2D Control Tower Online
 
 **P2D Control Tower Online** adalah Sistem Pelacakan & Monitoring terintegrasi yang dirancang khusus untuk **MSA Kargo**. Sistem ini menyederhanakan pengelolaan logistik impor, proses kepabeanan (customs clearance), dan pelacakan inventaris gudang.

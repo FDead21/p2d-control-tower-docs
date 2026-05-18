@@ -1,9 +1,4 @@
-
-### 2. Indonesian Version
-**File Path:** `i18n/id/docusaurus-plugin-content-docs/current/operational-flow/overview-process.md`
-
-```markdown
-# Ikhtisar Proses Impor TPS PJT
+# Ringkasan Proses Impor TPS PJT
 
 Bagian ini membahas pemetaan integrasi sistem end-to-end untuk **Proses Impor TPS PJT di MSA Kargo**. Alur kerja ini melacak pergerakan pengiriman dari bandara asal, validasi pabean, penanganan gudang, hingga pengiriman akhir menggunakan armada transportasi.
 

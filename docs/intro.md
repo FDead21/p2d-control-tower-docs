@@ -1,6 +1,10 @@
 ---
 sidebar_position: 1
+slug: /
 ---
+
+# P2D Control Tower Online User Guide
+...
 
 # Welcome to P2D Control Tower Online
 
